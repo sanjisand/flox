@@ -43,18 +43,18 @@ _____________________________________
 
 ### Responsive
 
-	De manera responsive se hay 5 tamaños 
-		`xs < 576px` 
-		`sm > 576px < 768px`
-		`md > 768px < 992px`
-		`lg > 992px < 1200px`
-		`xl >1200px`
+De manera responsive se hay 5 tamaños 
+	`xs < 576px` 
+	`sm > 576px < 768px`
+	`md > 768px < 992px`
+	`lg > 992px < 1200px`
+	`xl >1200px`
 
-	[Ejemplo resposive](./images/xl.png)
-	[Ejemplo resposive](./images/lg.png)
-	[Ejemplo resposive](./images/md.png)
-	[Ejemplo resposive](./images/sm.png)
-	[Ejemplo resposive](./images/xs.png)
+[Ejemplo resposive](./images/xl.png)
+[Ejemplo resposive](./images/lg.png)
+[Ejemplo resposive](./images/md.png)
+[Ejemplo resposive](./images/sm.png)
+[Ejemplo resposive](./images/xs.png)
 
 	```
 	<main class="container">
@@ -67,11 +67,11 @@ _____________________________________
 
 ### Ocultar un elemento
 	
-	Para ocultar un elemento en cada tamaño hay `tamaño-none`
-	Ejemplo `md-none` 
+Para ocultar un elemento en cada tamaño hay `tamaño-none`
+Ejemplo `md-none` 
 
-	[Ejemplo ocultar 1](./images/hide-lg.png)
-	[Ejemplo ocultar 2](./images/hide-md.png)
+[Ejemplo ocultar 1](./images/hide-lg.png)
+[Ejemplo ocultar 2](./images/hide-md.png)
 
 	```
 	<main class="container" >
