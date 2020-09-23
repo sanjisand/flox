@@ -1,4 +1,4 @@
-#FLox
+# FLox
 
 [Descargar Flox](https://raw.githubusercontent.com/ssaurexd/flox/master/flox.css)
 [Descargar Flox Minificado](https://raw.githubusercontent.com/ssaurexd/flox/master/flox.min.css)
@@ -6,12 +6,11 @@
 
 _____________________________________
 
-##Grid
+## Grid
 
 ![Ejemplo de Grid](./images/ejemplo_grid.png)
 
-`
-<main class="main" >
+```<main class="main" >
 	<div class="row ">
 		<div class="col-1">Grid 1 </div>
 		<div class="col-1">Grid 2 </div>
@@ -39,4 +38,4 @@ _____________________________________
 		<div class="col-1">Grid 24 </div>
 	</div>
 </main>
-`
+```
