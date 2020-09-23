@@ -51,9 +51,13 @@ De manera responsive se hay 5 tamaños
 	`xl >1200px`
 
 ![Ejemplo resposive](./images/xl.png)
+_
 ![Ejemplo resposive](./images/lg.png)
+_
 ![Ejemplo resposive](./images/md.png)
+_
 ![Ejemplo resposive](./images/sm.png)
+_
 ![Ejemplo resposive](./images/xs.png)
 
 	```
