@@ -10,7 +10,8 @@ _____________________________________
 
 ![Ejemplo de Grid](./images/ejemplo_grid.png)
 
-```<main class="main" >
+```
+<main class="container" >
 	<div class="row ">
 		<div class="col-1">Grid 1 </div>
 		<div class="col-1">Grid 2 </div>
@@ -39,3 +40,51 @@ _____________________________________
 	</div>
 </main>
 ```
+
+### Responsive
+
+	De manera responsive se hay 5 tamaños 
+		`xs < 576px` 
+		`sm > 576px < 768px`
+		`md > 768px < 992px`
+		`lg > 992px < 1200px`
+		`xl >1200px`
+
+	[Ejemplo resposive](./images/xl.png)
+	[Ejemplo resposive](./images/lg.png)
+	[Ejemplo resposive](./images/md.png)
+	[Ejemplo resposive](./images/sm.png)
+	[Ejemplo resposive](./images/xs.png)
+
+	```
+	<main class="container">
+		<div class="row">
+			<div class="xs-24 sm-6 md-12 lg-20 xl-2"> 1 </div>
+			<div class="xs-24 sm-18 md-12 lg-4 xl-22"> 2 </div>
+		</div>
+	</main>
+	```
+
+### Ocultar un elemento
+	
+	Para ocultar un elemento en cada tamaño hay `tamaño-none`
+	Ejemplo `md-none` 
+
+	[Ejemplo ocultar 1](./images/hide-lg.png)
+	[Ejemplo ocultar 2](./images/hide-md.png)
+
+	```
+	<main class="container" >
+		<div class="row">
+			<div class="md-12 lg-20"> 1 </div>
+			<div class="md-12 lg-4"> 2 </div>
+		</div>
+	</main>
+	
+	<main class="container" >
+		<div class="row">
+			<div class="md-none lg-20"> 1 </div>
+			<div class="md-12 lg-4"> 2 </div>
+		</div>
+	</main>
+	```
